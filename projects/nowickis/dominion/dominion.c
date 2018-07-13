@@ -902,7 +902,15 @@ int cardEffect(int card, int choice1, int choice2, int choice3, struct gameState
       return 0;
 		
     case smithy:
-      callSmithy(handPos, currentPlayer, state);
+      //callSmithy(handPos, currentPlayer, state);
+        for (i = 0; i < 3; i++)
+	{
+	  drawCard(currentPlayer, state);
+	}
+			
+      //discard card from hand
+        discardCard(handPos, currentPlayer, state, 0);
+        return 0;
 		
     case village:
      callVillage(currentPlayer, state, handPos);

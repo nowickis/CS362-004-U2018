@@ -1,0 +1,69 @@
+Result for running assignment 3 unit tests:
+unittest1.c
+PASS: less than operation
+PASS: greater than operation
+PASS: equivalence
+PASS: self comparision
+PASS: less than comparision to null pointer
+PASS: greater than comparision to null pointer
+FAIL: equivalence of null pointers
+PASS: self comparision of null pointer
+File 'dominion.c'
+Lines executed:1.07% of 559
+Creating 'dominion.c.gcov'
+
+unittest2.c
+PASS: array of different values initialized
+PASS: array of all same values initialized
+PASS: all int_max
+PASS: all int_min
+PASS: game intialized with deck of unique cards
+PASS: game not intialized with bad deck
+File 'dominion.c'
+Lines executed:18.60% of 559
+Creating 'dominion.c.gcov'
+
+unittest3.c
+PASS: did not initialize game with too few players
+PASS: initialized game with 2 players
+PASS: did not initialize game with too many players
+PASS: basic supplies for 2 players
+PASS: right kingdom card count for 2 players
+PASS: set up first player's turn in 3 player game
+File 'dominion.c'
+Lines executed:20.39% of 559
+Creating 'dominion.c.gcov'
+
+unittest4.c
+PASS: same amount of cards after shuffle
+PASS: deck was shuffled
+PASS: deck contains same cards after shuffle
+PASS: shuffle caught bad player
+File 'dominion.c'
+Lines executed:20.57% of 559
+Creating 'dominion.c.gcov'
+
+unittest5.c
+PASS: game not over yet
+PASS: game over, no more supplies
+PASS: game ended, three supply counts empty
+PASS: game ended, four supply counts empty
+PASS: game not ended, only two supply counts empty
+PASS: game not ended, no supply counts empty
+File 'dominion.c'
+Lines executed:22.36% of 559
+Creating 'dominion.c.gcov'
+
+cardtest1.c
+refactored function results
+FAIL: picked up or discarded wrong amount of cards
+PASS: playedCards increased by 1
+PASS: 1 card removed from deck
+cardEffect results
+PASS: 3 cards picked up, 1 card discarded
+PASS: playedCards increased by 1
+PASS: 1 card removed from deck
+File 'dominion.c'
+Lines executed:27.73% of 559
+Creating 'dominion.c.gcov'
+
