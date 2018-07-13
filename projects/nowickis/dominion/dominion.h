@@ -131,4 +131,6 @@ int getWinners(int players[MAX_PLAYERS], struct gameState *state);
 int compare(const void* a, const void* b);
 
 int callSmithy(int handPos, int currentPlayer, struct gameState *state);
+
+int callAdventurer(int drawntreasure, int currentPlayer, struct gameState *state, int *temphand, int z);
 #endif
