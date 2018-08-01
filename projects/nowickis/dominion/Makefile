@@ -83,6 +83,15 @@ unittestresults.out: unittest1.c dominion.o rngs.o
 	cardtest4 >> unittestresults.out
 	gcov dominion.c >> unittestresults.out
 
+randomtestadventurer.out: randomtestadventurer.c dominion.o rngs.o
+	echo "Result for running assignment 4 random tests:" > randomtestresults.out
+
+	echo "randomtestadventurer.c" >> randomtestadventurer.out
+	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.o rngs.o $(CFLAGS)
+	randomtestadventurer >> randomtestadventurer.out
+	gcov dominion.c >> randomtestadventurer.out
+
+	
 
 
 
