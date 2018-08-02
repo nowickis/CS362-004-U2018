@@ -26,10 +26,6 @@ int main(){
 	int temphand[MAX_HAND];
 	int n = 0;	
 	for(n = 0; n < 2000; n++) {
-		int y = 0;
-		for(y = 0; y < sizeof(struct gameState); y++) {
-		//	((char*)&game)[y] = floor(Random() * 256);
-		}
 		
 		int z = 0;
 		int drawntreasure = 0;
@@ -39,7 +35,7 @@ int main(){
 
 		int randomKingdom = rand()% (2 + 1-0) + 0;
 		int randomPlayerCount = rand() % (4 + 1 -2) + 2;
-		int player = rand() % (randomPlayerCount + 1 - 0) + 0;
+		int player = rand() % (randomPlayerCount  - 0) + 0;
 
 	
 		initializeGame(randomPlayerCount, kingdoms[randomKingdom], randomSeed, game);
