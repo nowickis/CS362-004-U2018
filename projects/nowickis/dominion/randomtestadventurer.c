@@ -48,7 +48,7 @@ int main(){
 			handBefore[handIndex] = card;
   		}
 		
-
+		game->deckCount[player] = rand() % (10 + 1 -0) + 0; 
 		int a = callAdventurer(drawntreasure, player, game, temphand, z);
 
 	if(a != 0){

@@ -1,13 +1,11 @@
 Result for running assignment 4 randomtestadventurer:
 randomtestadventurer.c
 FAIL: 2 treasure not gained
-1 treasure was gained
-FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -19,34 +17,20 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
-FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
-FAIL: 2 treasure not gained
 0 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
-FAIL: 2 treasure not gained
-0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
-FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -59,7 +43,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -67,19 +51,19 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -88,8 +72,6 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -97,11 +79,9 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -113,25 +93,27 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -139,13 +121,13 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -175,7 +157,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -185,7 +167,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -193,6 +175,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -209,7 +193,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -219,7 +203,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -229,7 +213,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -237,17 +221,17 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -257,33 +241,31 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -308,8 +290,6 @@ FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -332,10 +312,6 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -349,15 +325,11 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
-FAIL: 2 treasure not gained
 0 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -377,8 +349,6 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
-FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -389,11 +359,11 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -409,6 +379,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -416,8 +388,6 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -437,7 +407,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -459,7 +429,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -469,8 +439,6 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
-FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -479,9 +447,13 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -495,7 +467,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -527,7 +499,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -545,13 +517,13 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -559,7 +531,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -569,13 +541,15 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -587,16 +561,20 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
@@ -626,8 +604,6 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
-FAIL: 2 treasure not gained
-0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -641,17 +617,23 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -663,7 +645,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -691,7 +673,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -705,17 +687,19 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -725,6 +709,12 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -743,7 +733,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -757,6 +747,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -789,11 +781,11 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
@@ -809,7 +801,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -825,7 +817,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -835,7 +827,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -847,19 +839,19 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
-FAIL: 2 treasure not gained
-1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -878,6 +870,8 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -889,7 +883,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -901,15 +895,15 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -931,6 +925,10 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -939,6 +937,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -957,7 +957,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -965,13 +965,15 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -991,10 +993,12 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
@@ -1005,7 +1009,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
@@ -1021,7 +1025,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1039,18 +1043,22 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
@@ -1058,6 +1066,8 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1069,11 +1079,13 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
@@ -1085,7 +1097,7 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1103,11 +1115,11 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1117,12 +1129,36 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1138,6 +1174,10 @@ FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1160,7 +1200,11 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
@@ -1180,6 +1224,16 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1192,6 +1246,12 @@ FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
@@ -1202,7 +1262,11 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1214,6 +1278,10 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
@@ -1229,21 +1297,37 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1260,6 +1344,8 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1271,14 +1357,22 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1298,9 +1392,15 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1320,14 +1420,26 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
@@ -1336,6 +1448,12 @@ FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1343,6 +1461,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1355,19 +1475,29 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1381,6 +1511,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1388,13 +1520,25 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1402,8 +1546,12 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1419,6 +1567,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1429,17 +1579,25 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1448,7 +1606,11 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1458,6 +1620,8 @@ FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1468,6 +1632,8 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1481,11 +1647,9 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
-FAIL: 2 treasure not gained
-0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1500,8 +1664,14 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1512,6 +1682,8 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1527,6 +1699,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
@@ -1534,6 +1708,8 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1541,11 +1717,17 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1559,7 +1741,11 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1572,6 +1758,8 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1586,9 +1774,19 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1598,6 +1796,10 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1615,6 +1817,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1634,11 +1838,23 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1651,20 +1867,24 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1695,15 +1915,15 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1722,10 +1942,12 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1751,7 +1973,11 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1760,8 +1986,16 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1780,16 +2014,34 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1799,11 +2051,23 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1811,6 +2075,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1818,25 +2084,45 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
@@ -1846,12 +2132,16 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1863,6 +2153,8 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -1872,6 +2164,8 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1884,6 +2178,8 @@ FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
@@ -1891,11 +2187,13 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1910,20 +2208,30 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-0 treasure was gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1946,20 +2254,36 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1969,13 +2293,19 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
@@ -1999,6 +2329,10 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
+1 treasure was gained
+FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -2052,16 +2386,22 @@ FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
@@ -2082,17 +2422,23 @@ FAIL: 2 treasure not gained
 0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
-FAIL: 2 treasure not gained
-0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
+0 treasure was gained
+FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
@@ -2113,10 +2459,12 @@ FAIL: 2 treasure not gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 FAIL: 2 treasure not gained
-1 treasure was gained
+0 treasure was gained
+FAIL: 2 treasure not gained
+0 treasure was gained
 FAIL: 2 treasure not gained
 1 treasure was gained
 File 'dominion.c'
-Lines executed:20.58% of 583
+Lines executed:22.47% of 583
 Creating 'dominion.c.gcov'
 
