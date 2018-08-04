@@ -2001,6 +2001,6 @@ FAIL: picked up or discarded wrong amount of cards
 FAIL: picked up or discarded wrong amount of cards
 FAIL: picked up or discarded wrong amount of cards
 File 'dominion.c'
-Lines executed:26.24% of 583
+Lines executed:21.96% of 583
 Creating 'dominion.c.gcov'
 
