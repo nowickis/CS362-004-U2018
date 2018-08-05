@@ -17,6 +17,8 @@
 
 import junit.framework.TestCase;
 
+import java.util.ArrayList;
+
 /**
  * Performs Validation Test for url validations.
  *
@@ -74,6 +76,37 @@ protected void setUp() {
 
    }
 
+   public void testYourFirstPartition()
+   {
+      //You can use this function to implement your First Partition testing
+      //http partition
+      UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+      ArrayList<String> urls = new ArrayList<>();
+      urls.add("http://www.something.com");
+      urls.add("http://www.something.org");
+      urls.add("http://www.something.net");
+      urls.add("http://www.something.uk");
+
+      //port
+      urls.add("http://snowicki-7040.infogix.com:8080");
+      //path
+      urls.add("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html");
+      //query string
+      urls.add("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html?dev=true&tenantId=infogix.com");
+      //fragment
+      urls.add("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html?dev=true&tenantId=infogix.com#dashboard/501492");
+
+      for(String url: urls){
+         if(urlVal.isValid(url)){
+            System.out.println(url + " is correctly considered valid.\n");
+         } else {
+            System.out.println(url + " is incorrectly considered invalid.\n");
+         }
+      }
+
+
+   }
+
    /**
     * Create set of tests by taking the testUrlXXX arrays and
     * running through all possible permutations of their combinations.
@@ -83,10 +116,13 @@ protected void setUp() {
    public void testIsValid(Object[] testObjects, long allowAllSchemes) {
 	      UrlValidator urlVal = new UrlValidator(null, null, allowAllSchemes);
 	      //UrlValidator urlVal = new UrlValidator(null, allowAllSchemes);
-      assertTrue(urlVal.isValid("http://www.google.com"));
+      //assertTrue(urlVal.isValid("http://www..google.com"));
       assertTrue(urlVal.isValid("http://www.google.com/"));
+      assertTrue(urlVal.isValid("file:///C:/Users/snowicki/Desktop/TMHandbook_v1.5_4Jan18.pdf"));
+      testYourFirstPartition();
       int statusPerLine = 60;
       int printed = 0;
+      int urlCount = 0;
       if (printIndex)  {
          statusPerLine = 6;
       }
@@ -102,7 +138,8 @@ protected void setUp() {
          String url = testBuffer.toString();
          boolean result = urlVal.isValid(url);
          if(result == true)
-        	 System.out.println(url);
+        	 //System.out.println(url);
+         urlCount++;
          assertEquals(url, expected, result);
          if (printStatus) {
             if (printIndex) {
@@ -124,6 +161,7 @@ protected void setUp() {
       if (printStatus) {
          System.out.println();
       }
+      System.out.println((urlCount));
    }
 
    public void testValidator202() {
@@ -189,6 +227,7 @@ protected void setUp() {
       fct.setUp();
       fct.testIsValid();
       fct.testIsValidScheme();
+
    }
    //-------------------- Test data for creating a composite URL
    /**
