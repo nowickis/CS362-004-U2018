@@ -1,0 +1,103 @@
+Result for running assignment 3 unit tests:
+unittest1.c
+PASS: less than operation
+PASS: greater than operation
+PASS: equivalence
+PASS: self comparision
+PASS: less than comparision to null pointer
+PASS: greater than comparision to null pointer
+FAIL: equivalence of null pointers
+PASS: self comparision of null pointer
+File 'dominion.c'
+Lines executed:1.17% of 513
+Creating 'dominion.c.gcov'
+
+unittest2.c
+PASS: array of different values initialized
+PASS: array of all same values initialized
+PASS: all int_max
+PASS: all int_min
+PASS: game intialized with deck of unique cards
+PASS: game not intialized with bad deck
+File 'dominion.c'
+Lines executed:20.27% of 513
+Creating 'dominion.c.gcov'
+
+unittest3.c
+PASS: did not initialize game with too few players
+PASS: initialized game with 2 players
+PASS: did not initialize game with too many players
+PASS: basic supplies for 2 players
+PASS: right kingdom card count for 2 players
+PASS: set up first player's turn in 3 player game
+File 'dominion.c'
+Lines executed:22.22% of 513
+Creating 'dominion.c.gcov'
+
+unittest4.c
+PASS: same amount of cards after shuffle
+PASS: deck was shuffled
+PASS: deck contains same cards after shuffle
+PASS: shuffle caught bad player
+File 'dominion.c'
+Lines executed:22.42% of 513
+Creating 'dominion.c.gcov'
+
+unittest5.c
+PASS: game not over yet
+PASS: game over, no more supplies
+PASS: game ended, three supply counts empty
+PASS: game ended, four supply counts empty
+PASS: game not ended, only two supply counts empty
+PASS: game not ended, no supply counts empty
+File 'dominion.c'
+Lines executed:24.37% of 513
+Creating 'dominion.c.gcov'
+
+cardtest1.c
+refactored function results
+FAIL: picked up or discarded wrong amount of cards
+FAIL: playedCards did not increase by 1
+PASS: 1 card removed from deck
+cardEffect results
+FAIL: picked up or discarded wrong amount of cards
+FAIL: playedCards did not increase by 1
+PASS: 1 card removed from deck
+File 'dominion.c'
+Lines executed:26.51% of 513
+Creating 'dominion.c.gcov'
+
+cardtest2.c
+refactored funtion test
+PASS: adventurer worked
+PASS: player picked up two cards
+PASS: 2 treasure gained
+PASS: no treaure discarded
+cardEffect tests
+PASS: adventurer worked
+PASS: player picked up two cards
+FAIL: 2 treasure not gained
+PASS: no treaure discarded
+File 'dominion.c'
+Lines executed:26.71% of 513
+Creating 'dominion.c.gcov'
+
+cardtest3.c
+cardEffect tests
+PASS: 1 card discarded, 1 card gained
+PASS: 1 action gained
+PASS: playedCards increased by 1
+PASS: player deck decreased by 1
+File 'dominion.c'
+Lines executed:29.63% of 513
+Creating 'dominion.c.gcov'
+
+cardtest4.c
+cardEfect test
+PASS: choice1 = 1 took two cards and discarded one
+PASS: choice1 = 2 increased coins by 2
+PASS: choice1 != 1 or 2 discarded 3 cards
+File 'dominion.c'
+Lines executed:31.58% of 513
+Creating 'dominion.c.gcov'
+
