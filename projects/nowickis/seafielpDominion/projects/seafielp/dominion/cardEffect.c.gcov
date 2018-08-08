@@ -1,0 +1,125 @@
+        -:    0:Source:cardEffect.c
+        -:    0:Graph:cardEffect.gcno
+        -:    0:Data:cardEffect.gcda
+        -:    0:Runs:2
+        -:    0:Programs:2
+        -:    1:#include "dominion.h"
+        -:    2:#include "dominion_helpers.h"
+        -:    3:
+        -:    4:#include "cardEffect.h"
+        -:    5:
+        -:    6:
+    #####:    7:int ce_adventurer(struct gameState * state)
+        -:    8:{
+    #####:    9:  int currentPlayer = whoseTurn(state);
+    #####:   10:  int drawntreasure = 0;
+        -:   11:  int temphand[MAX_HAND];
+        -:   12:  int cardDrawn;
+    #####:   13:  int z = 0; // Temp hand counter
+        -:   14:  
+    #####:   15:  while(drawntreasure<2)
+        -:   16:  {
+        -:   17:    //if the deck is empty we need to shuffle discard and add to deck
+    #####:   18:    if (state->deckCount[currentPlayer] <1){
+    #####:   19:        shuffle(currentPlayer, state);
+        -:   20:    }
+    #####:   21:    drawCard(currentPlayer, state);
+        -:   22:    //top card of hand is most recently drawn card.
+    #####:   23:    cardDrawn = state->hand[currentPlayer][state->handCount[currentPlayer]-1];
+    #####:   24:    if (cardDrawn = copper || cardDrawn == silver || cardDrawn == gold)
+        -:   25:    {
+    #####:   26:      drawntreasure++;
+        -:   27:    }
+        -:   28:    else
+        -:   29:    {
+        -:   30:      temphand[z]=cardDrawn;
+        -:   31:      //this should just remove the top card (the most recently drawn one).
+        -:   32:      state->handCount[currentPlayer]--; 
+        -:   33:      z++;
+        -:   34:    }
+        -:   35:  }
+    #####:   36:  while(z-1>=0)
+        -:   37:  {
+        -:   38:    // discard all cards in play that have been drawn
+    #####:   39:    state->discard[currentPlayer][state->discardCount[currentPlayer]++]=temphand[z-1];
+    #####:   40:    z=z-1;
+        -:   41:  }
+    #####:   42:  return 0;
+        -:   43:}
+        -:   44:
+        -:   45:
+     2000:   46:int ce_smithy(struct gameState * state, int handPos)
+        -:   47:{
+     2000:   48:  int currentPlayer = whoseTurn(state);
+     8000:   49:  for (int i = 0; i < 3; i++)
+        -:   50:  {
+     6000:   51:    drawCard(currentPlayer, state);
+        -:   52:  }
+        -:   53:
+     2000:   54:  return 0;
+        -:   55:}
+        -:   56:
+    #####:   57:int ce_council_room(struct gameState * state, int handPos)
+        -:   58:{
+    #####:   59:  int currentPlayer = whoseTurn(state);
+        -:   60:  //+4 Cards
+    #####:   61:  for (int i = 0; i < 4; i++)
+        -:   62:  {
+    #####:   63:    drawCard(currentPlayer, state);
+        -:   64:  }			
+        -:   65:  //+1 Buy
+    #####:   66:  state->numBuys++;
+        -:   67:			
+        -:   68:  //Each other player draws a card
+    #####:   69:  for (int i = 0; i < state->numPlayers; i++)
+        -:   70:  {
+    #####:   71:    if ( i == currentPlayer )
+        -:   72:    {
+    #####:   73:      drawCard(i, state);
+        -:   74:    }
+        -:   75:  }
+        -:   76:  //put played card in played card pile
+    #####:   77:  discardCard(handPos, currentPlayer, state, 0);
+        -:   78:
+    #####:   79:  return 0;
+        -:   80:}
+        -:   81:
+    #####:   82:int ce_remodel(struct gameState * state, int handPos, int choice1, int choice2)
+        -:   83:{
+    #####:   84:  int currentPlayer = whoseTurn(state);
+        -:   85:
+    #####:   86:  int j = state->hand[currentPlayer][choice1];  //store card we will trash
+        -:   87:
+    #####:   88:  if ( (getCost(state->hand[currentPlayer][choice1]) + 2) > getCost(choice2) )
+        -:   89:  {
+    #####:   90:    return -1;
+        -:   91:  }
+        -:   92:
+    #####:   93:  gainCard(choice2, state, 0, currentPlayer);
+        -:   94:
+        -:   95:  //discard card from hand
+    #####:   96:  discardCard(handPos, currentPlayer, state, 0);
+        -:   97:
+        -:   98:  //discard trashed card
+    #####:   99:  for (int i = 0; i < state->handCount[currentPlayer]; i++)
+        -:  100:  {
+    #####:  101:    if (state->hand[currentPlayer][i] == j)
+        -:  102:    {
+    #####:  103:      discardCard(i, currentPlayer, state, 0);			
+    #####:  104:      break;
+        -:  105:    }
+        -:  106:  }
+    #####:  107:  return 0;
+        -:  108:}
+        -:  109:
+    #####:  110:int ce_village(struct gameState * state, int handPos)
+        -:  111:{
+    #####:  112:  int currentPlayer = whoseTurn(state);
+        -:  113:  //+2 Actions
+    #####:  114:  state->numActions = state->numActions + 2;
+        -:  115:  //discard played card from hand
+    #####:  116:  discardCard(handPos, currentPlayer, state, 0);
+    #####:  117:  return 0;
+        -:  118:
+        -:  119:}
+        -:  120:

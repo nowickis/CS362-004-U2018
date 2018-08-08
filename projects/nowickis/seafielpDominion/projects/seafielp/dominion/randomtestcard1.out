@@ -4,3 +4,7 @@ File 'dominion.c'
 Lines executed:26.90% of 513
 Creating 'dominion.c.gcov'
 
+File 'cardEffect.c'
+Lines executed:0.00% of 47
+Creating 'cardEffect.c.gcov'
+
