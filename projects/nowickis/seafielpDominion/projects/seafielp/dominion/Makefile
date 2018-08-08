@@ -86,28 +86,28 @@ unittestresults.out: dominion.o cardEffect.o rngs.o unittest1.c unittest2.c unit
 	cardtest4 >> unittestresults.out
 	gcov dominion.c >> unittestresults.out
 
-randomtestadventurer.out: randomtestadventurer.c dominion.o rngs.o
+randomtestadventurer.out: randomtestadventurer.c dominion.o cardEffect.o rngs.o
 	echo "Result for running assignment 4 randomtestadventurer:" > randomtestadventurer.out
 
 	echo "randomtestadventurer.c" >> randomtestadventurer.out
-	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.o rngs.o $(CFLAGS)
+	gcc -o randomtestadventurer -g randomtestadventurer.c dominion.o cardEffect.o rngs.o $(CFLAGS)
 	randomtestadventurer >> randomtestadventurer.out
 	gcov dominion.c >> randomtestadventurer.out
 
 	
-randomtestcard1.out: randomtestcard1.c dominion.o rngs.o
+randomtestcard1.out: randomtestcard1.c dominion.o cardEffect.o rngs.o
 	echo "Result for running assignment 4 randomtestcard1 great_hall:" > randomtestcard1.out
 
 	echo "randomtestcard1.c" >> randomtestcard1.out
-	gcc -o randomtestcard1 -g randomtestcard1.c dominion.o rngs.o $(CFLAGS)
+	gcc -o randomtestcard1 -g randomtestcard1.c dominion.o cardEffect.o rngs.o $(CFLAGS)
 	randomtestcard1 >> randomtestcard1.out
 	gcov dominion.c >> randomtestcard1.out
 
-randomtestcard2.out: randomtestcard2.c dominion.o rngs.o
+randomtestcard2.out: randomtestcard2.c dominion.o cardEffect.o rngs.o
 	echo "Result for running assignment 4 randomtestcard2 smithy:" > randomtestcard2.out
 
 	echo "randomtestcard2.c" >> randomtestcard2.out
-	gcc -o randomtestcard2 -g randomtestcard2.c dominion.o rngs.o $(CFLAGS)
+	gcc -o randomtestcard2 -g randomtestcard2.c dominion.o cardEffect.o rngs.o $(CFLAGS)
 	randomtestcard2 >> randomtestcard2.out
 	gcov dominion.c >> randomtestcard2.out
 

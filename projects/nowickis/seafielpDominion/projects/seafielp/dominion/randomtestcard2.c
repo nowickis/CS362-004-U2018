@@ -48,7 +48,7 @@ int main(){
   	int playedCardsBefore = game->playedCardCount;
 	int * cardDiscardedAddress = &(game->hand[player][handPos]);
 	
-	int c = callSmithy(handPos, player, game);
+	int c = ce_smithy(game, handPos);//callSmithy(handPos, player, game);
 	int countAfter = game->handCount[player];
 	int playedCardsAfter = game->playedCardCount;
 	int * cardDiscardedNewAddress = &(game->playedCards[playedCardsAfter]);

@@ -47,8 +47,10 @@ int main(){
 
 	int actionsBefore = game->numActions;
 	int playedCardsBefore = game->playedCardCount;
-	
-	int great = callGreatHall(player, game, handPos);
+	int choice1, choice2, choice3 = 0;
+	int * bonus;
+	//int great = callGreatHall(player, game, handPos);
+	int great = cardEffect(great_hall, choice1, choice2, choice3, game, handPos, bonus);
 
 	if(great != 0){
 		printf("FAIL: callGreatHall failed\n");
