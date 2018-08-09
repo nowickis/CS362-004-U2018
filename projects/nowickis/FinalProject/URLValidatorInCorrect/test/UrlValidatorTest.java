@@ -128,9 +128,26 @@ public class UrlValidatorTest extends TestCase {
 
 
    }
-   
+   //authorites are good. ports and paths are not; query strings are good; fragments are good
    public void testYourSecondPartition(){
-		 //You can use this function to implement your Second Partition testing	   
+		 //You can use this function to implement your Second Partition testing
+       UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+       ArrayList<String> urls = new ArrayList<>();
+       //path partition - paths are broken
+       urls.add("http://snowicki-7040.infogix.com/cafe/desktop/index.html");
+       //port partition - ports are broken
+       urls.add("http://snowicki-7040.infogix.com:8080");
+       //query string partition
+       urls.add("http://snowicki-7040.infogix.com?dev=true&tenantId=infogix.com");
+       //fragment partition
+       urls.add("http://snowicki-7040.infogix.com#dashboard/501492");
+       for(String url: urls){
+           if(urlVal.isValid(url)){
+               System.out.println(url + " is correctly considered valid.\n");
+           } else {
+               System.out.println(url + " is incorrectly considered invalid.\n");
+           }
+       }
 
    }
    //You need to create more test cases for your Partitions if you need to 
@@ -149,6 +166,7 @@ public class UrlValidatorTest extends TestCase {
       //fct.testIsValidScheme();
 	  fct.testManualTest();
 	  fct.testYourFirstPartition();
+	  fct.testYourSecondPartition();
    }
    
 
