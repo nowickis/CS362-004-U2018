@@ -3,6 +3,7 @@
 import junit.framework.TestCase;
 
 import java.util.ArrayList;
+import java.util.Random;
 
 //You can use this as a skeleton for your 3 different test approach
 //It is an optional to use this file, you can generate your own test file(s) to test the target function!
@@ -155,6 +156,71 @@ public class UrlValidatorTest extends TestCase {
    public void testIsValid()
    {
 	   //You can use this function for programming based testing
+       UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
+       ArrayList<String> schemes = new ArrayList<>();
+       ArrayList<String> authorites = new ArrayList<>();
+       ArrayList<String> ports = new ArrayList<>();
+       ArrayList<String> paths = new ArrayList<>();
+       ArrayList<String> queryStrings = new ArrayList<>();
+       ArrayList<String> fragments = new ArrayList<>();
+
+       //from tests above, we know that only http is going to work, so no use testing other schemes
+       schemes.add("http://");
+
+       authorites.add("www.a.com");
+       authorites.add("www.A.com");
+       authorites.add("WWW.hello.com");
+       authorites.add("www.hello.org");
+       authorites.add("www.world.io");
+       authorites.add("www.123.us");
+
+       StringBuilder longOne = new StringBuilder(1000);
+       int i = 0;
+       while(i<1000){
+           longOne.append("a");
+           i++;
+       }
+       longOne.append(".com");
+        String longOneString = longOne.toString();
+       authorites.add(longOneString);
+
+       ports.add("");
+       ports.add(":8080");
+       ports.add(":1234");
+
+       paths.add("/a/b/index.html");
+       paths.add("");
+       paths.add("/");
+       paths.add("/A");
+
+       queryStrings.add("?");
+       queryStrings.add("");
+       queryStrings.add("?me=this");
+       queryStrings.add("?me=this&this=me");
+
+       fragments.add("");
+       fragments.add("#");
+       fragments.add("#frag");
+       fragments.add("#frag=ment");
+
+       i = 0;
+       System.out.println("Automated testing\n");
+       while(i < 1000){
+           Random rand = new Random();
+           int  randomAuthority = rand.nextInt(authorites.size());
+           int  randomPort = rand.nextInt(ports.size());
+           int  randomPath = rand.nextInt(paths.size());
+           int  randomQueryString = rand.nextInt(queryStrings.size());
+           int  randomFragment = rand.nextInt(fragments.size());
+           String url = schemes.get(0) + authorites.get(randomAuthority) + ports.get(randomPort) + paths.get(randomPath) +
+                        queryStrings.get(randomQueryString) + fragments.get(randomFragment);
+           if(urlVal.isValid(url)){
+               System.out.println(url + " is correctly considered valid.\n");
+           } else {
+               System.out.println(url + " is incorrectly considered invalid.\n");
+           }
+           i++;
+       }
 
    }
    
@@ -167,6 +233,7 @@ public class UrlValidatorTest extends TestCase {
 	  fct.testManualTest();
 	  fct.testYourFirstPartition();
 	  fct.testYourSecondPartition();
+	  fct.testIsValid();
    }
    
 
