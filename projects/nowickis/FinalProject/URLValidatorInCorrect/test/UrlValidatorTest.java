@@ -3,6 +3,7 @@
 import junit.framework.TestCase;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Random;
 
 //You can use this as a skeleton for your 3 different test approach
@@ -103,53 +104,66 @@ public class UrlValidatorTest extends TestCase {
 	 //You can use this function to implement your First Partition testing
        //http partition
        UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
-       ArrayList<String> urls = new ArrayList<>();
-       urls.add("http://www.something.com");
-       urls.add("http://www.something.org");
-       urls.add("http://www.something.net");
-       urls.add("http://www.something.uk");
-       urls.add("http://www.Something.uk");
+       HashMap<String, Boolean> urls = new HashMap<String, Boolean>();
+       
+       urls.put("http://www.something.com", true);
+       urls.put("http://www.something.org", true);
+       urls.put("http://www.something.net", true);
+       urls.put("http://www.something.uk", true);
+       urls.put("http://www.Something.uk", true);
 
        //port
-       urls.add("http://snowicki-7040.infogix.com:8080");
+       urls.put("http://snowicki-7040.infogix.com:8080", true);
+       urls.put("http://snowicki-7040.infogix.com|8080", false);
        //path
-       urls.add("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html");
+       urls.put("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html", true);
+       urls.put("http://snowicki-7040.infogix.com:8080/cafe/%%%% /index.html", false);
        //query string
-       urls.add("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html?dev=true&tenantId=infogix.com");
+       urls.put("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html?dev=true&tenantId=infogix.com", true);
+       urls.put("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html?&&&/&&/&dev=======truetenantId=infogix.com", false);
        //fragment
-       urls.add("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html?dev=true&tenantId=infogix.com#dashboard/501492");
+       urls.put("http://snowicki-7040.infogix.com:8080/cafe/desktop/index.html?dev=true&tenantId=infogix.com#dashboard/501492", true);
 
-       for(String url: urls){
-           if(urlVal.isValid(url)){
-               System.out.println(url + " is correctly considered valid.\n");
-           } else {
-               System.out.println(url + " is incorrectly considered invalid.\n");
-           }
+       for(HashMap.Entry<String, Boolean> entry: urls.entrySet()){
+    	   Boolean passed = urlVal.isValid(entry.getKey()) == entry.getValue();
+    	   String testMessage = 
+    			   (passed ? "PASS: " : "FAIL: ")
+    			   + entry.getKey()
+    			   + " is "
+    			   + (passed ? "correctly" : "incorrectly")
+    			   + " considered "
+    			   + (entry.getValue() ? "valid" : "invalid");
+    	   System.out.println(testMessage);
        }
 
 
    }
-   //authorites are good. ports and paths are not; query strings are good; fragments are good
+   //authorities are good. ports and paths are not; query strings are good; fragments are good
    public void testYourSecondPartition(){
 		 //You can use this function to implement your Second Partition testing
        UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
-       ArrayList<String> urls = new ArrayList<>();
+      
+       HashMap<String, Boolean> urls = new HashMap<String, Boolean>();
        //path partition - paths are broken
-       urls.add("http://snowicki-7040.infogix.com/cafe/desktop/index.html");
+       urls.put("http://snowicki-7040.infogix.com/cafe/desktop/index.html", true);
        //port partition - ports are broken
-       urls.add("http://snowicki-7040.infogix.com:8080");
+       urls.put("http://snowicki-7040.infogix.com:8080", true);
        //query string partition
-       urls.add("http://snowicki-7040.infogix.com?dev=true&tenantId=infogix.com");
+       urls.put("http://snowicki-7040.infogix.com?dev=true&tenantId=infogix.com", true);
        //fragment partition
-       urls.add("http://snowicki-7040.infogix.com#dashboard/501492");
-       for(String url: urls){
-           if(urlVal.isValid(url)){
-               System.out.println(url + " is correctly considered valid.\n");
-           } else {
-               System.out.println(url + " is incorrectly considered invalid.\n");
-           }
+       urls.put("http://snowicki-7040.infogix.com#dashboard/501492", true);
+       
+       for(HashMap.Entry<String, Boolean> entry: urls.entrySet()){
+    	   Boolean passed = urlVal.isValid(entry.getKey()) == entry.getValue();
+    	   String testMessage = 
+    			   (passed ? "PASS: " : "FAIL: ")
+    			   + entry.getKey()
+    			   + " is "
+    			   + (passed ? "correctly" : "incorrectly")
+    			   + " considered "
+    			   + (entry.getValue() ? "valid" : "invalid");
+    	   System.out.println(testMessage);
        }
-
    }
    //You need to create more test cases for your Partitions if you need to 
    
@@ -157,24 +171,24 @@ public class UrlValidatorTest extends TestCase {
    {
 	   //You can use this function for programming based testing
        UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
-       ArrayList<String> schemes = new ArrayList<>();
-       ArrayList<String> authorites = new ArrayList<>();
-       ArrayList<String> ports = new ArrayList<>();
-       ArrayList<String> paths = new ArrayList<>();
-       ArrayList<String> queryStrings = new ArrayList<>();
-       ArrayList<String> fragments = new ArrayList<>();
+       HashMap<String, Boolean> schemes = new HashMap<>();
+       HashMap<String, Boolean> authorities = new HashMap<>();
+       HashMap<String, Boolean> ports = new HashMap<>();
+       HashMap<String, Boolean> paths = new HashMap<>();
+       HashMap<String, Boolean> queryStrings = new HashMap<>();
+       HashMap<String, Boolean> fragments = new HashMap<>();
 
        //from tests above, we know that only http is going to work, so no use testing other schemes
-       schemes.add("http://");
+       schemes.put("http://", true);
 
-       authorites.add("www.a.com");
-       authorites.add("www.A.com");
-       authorites.add("WWW.hello.com");
-       authorites.add("www.hello.org");
-       authorites.add("www.world.io");
-       authorites.add("www.123.us");
+       authorities.put("www.a.com", true);
+       authorities.put("www.A.com", true);
+       authorities.put("WWW.hello.com", true);
+       authorities.put("www.hello.org", true);
+       authorities.put("www.world.io", true);
+       authorities.put("www.123.us", true);
 
-       StringBuilder longOne = new StringBuilder(1000);
+       StringBuilder longOne = new StringBuilder(1004);
        int i = 0;
        while(i<1000){
            longOne.append("a");
@@ -182,46 +196,71 @@ public class UrlValidatorTest extends TestCase {
        }
        longOne.append(".com");
         String longOneString = longOne.toString();
-       authorites.add(longOneString);
+       authorities.put(longOneString, true);
 
-       ports.add("");
-       ports.add(":8080");
-       ports.add(":1234");
+       ports.put("", true);
+       ports.put(":8080", true);
+       ports.put(":1234", true);
+       ports.put("|0039", false);
+       ports.put(":im_not_a_port", false);
 
-       paths.add("/a/b/index.html");
-       paths.add("");
-       paths.add("/");
-       paths.add("/A");
+       paths.put("/a/b/index.html", true);
+       paths.put("", true);
+       paths.put("/", true);
+       paths.put("/A", true);
+       paths.put("^^^not^a^path", false);
 
-       queryStrings.add("?");
-       queryStrings.add("");
-       queryStrings.add("?me=this");
-       queryStrings.add("?me=this&this=me");
+       queryStrings.put("?", true);
+       queryStrings.put("", true);
+       queryStrings.put("?me=this", true);
+       queryStrings.put("?me=this&this=me", true);
 
-       fragments.add("");
-       fragments.add("#");
-       fragments.add("#frag");
-       fragments.add("#frag=ment");
+       fragments.put("", true);
+       fragments.put("#", true);
+       fragments.put("#frag", true);
+       fragments.put("#frag=ment", true);
 
        i = 0;
        System.out.println("Automated testing\n");
-       while(i < 1000){
-           Random rand = new Random();
-           int  randomAuthority = rand.nextInt(authorites.size());
-           int  randomPort = rand.nextInt(ports.size());
-           int  randomPath = rand.nextInt(paths.size());
-           int  randomQueryString = rand.nextInt(queryStrings.size());
-           int  randomFragment = rand.nextInt(fragments.size());
-           String url = schemes.get(0) + authorites.get(randomAuthority) + ports.get(randomPort) + paths.get(randomPath) +
-                        queryStrings.get(randomQueryString) + fragments.get(randomFragment);
-           if(urlVal.isValid(url)){
-               System.out.println(url + " is correctly considered valid.\n");
-           } else {
-               System.out.println(url + " is incorrectly considered invalid.\n");
-           }
-           i++;
+       
+       for (HashMap.Entry<String, Boolean> eAuth : authorities.entrySet()) {
+    	   String auth = eAuth.getKey();
+    	   Boolean authExpect = eAuth.getValue();
+    	   
+    	   for (HashMap.Entry<String, Boolean> ePort : ports.entrySet()) {
+	    	   String port = ePort.getKey();
+	    	   Boolean portExpect = ePort.getValue();
+	    	   
+	    	   for (HashMap.Entry<String, Boolean> ePath : paths.entrySet()) {
+	    		   String path = ePath.getKey();
+	    		   Boolean pathExpect = ePath.getValue();
+	    		   
+	    		   for (HashMap.Entry<String, Boolean> eQuery : queryStrings.entrySet()) {
+	    			   String query = eQuery.getKey();
+	    			   Boolean queryExpect = eQuery.getValue();
+		    		   
+		    		   for (HashMap.Entry<String, Boolean> eFrag : fragments.entrySet()) {
+		    			   String frag = eFrag.getKey();
+		    			   Boolean fragExpect = eFrag.getValue();
+		    			   
+		    			   // Actual testing!
+		    			   String testUrl = auth + port + path + query + frag;
+		    			   Boolean expected = authExpect && portExpect && pathExpect && queryExpect && fragExpect;
+		    			   Boolean passed = urlVal.isValid(testUrl) == expected;
+		    			   
+		    			   String testMessage =
+		    					   (passed ? "PASS: " : "FAIL: ")
+		    					   + testUrl
+		    					   + " is "
+		    					   + (passed ? "correctly" : "incorrectly")
+		    					   + " considered "
+		    					   + (expected ? "valid" : "invalid");
+		    			   System.out.println(testMessage);
+		    		   }
+	    		   }
+	    	   }
+    	   }
        }
-
    }
    
    public static void main(String[] argv) {
