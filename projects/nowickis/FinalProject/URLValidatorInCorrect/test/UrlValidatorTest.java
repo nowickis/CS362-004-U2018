@@ -2,9 +2,7 @@
 
 import junit.framework.TestCase;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Random;
 
 //You can use this as a skeleton for your 3 different test approach
 //It is an optional to use this file, you can generate your own test file(s) to test the target function!
@@ -222,7 +220,10 @@ public class UrlValidatorTest extends TestCase {
 
        i = 0;
        System.out.println("Automated testing\n");
-       
+       for (HashMap.Entry<String, Boolean> eScheme : schemes.entrySet()) {
+    	   String scheme = eScheme.getKey();
+    	   Boolean schemeExpect = eScheme.getValue();
+    	   
        for (HashMap.Entry<String, Boolean> eAuth : authorities.entrySet()) {
     	   String auth = eAuth.getKey();
     	   Boolean authExpect = eAuth.getValue();
@@ -244,8 +245,8 @@ public class UrlValidatorTest extends TestCase {
 		    			   Boolean fragExpect = eFrag.getValue();
 		    			   
 		    			   // Actual testing!
-		    			   String testUrl = auth + port + path + query + frag;
-		    			   Boolean expected = authExpect && portExpect && pathExpect && queryExpect && fragExpect;
+		    			   String testUrl = scheme + auth + port + path + query + frag;
+		    			   Boolean expected = schemeExpect && authExpect && portExpect && pathExpect && queryExpect && fragExpect;
 		    			   Boolean passed = urlVal.isValid(testUrl) == expected;
 		    			   
 		    			   String testMessage =
@@ -260,6 +261,7 @@ public class UrlValidatorTest extends TestCase {
 	    		   }
 	    	   }
     	   }
+       }
        }
    }
    
