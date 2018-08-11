@@ -179,12 +179,12 @@ public class UrlValidatorTest extends TestCase {
        //from tests above, we know that only http is going to work, so no use testing other schemes
        schemes.put("http://", true);
 
-       authorities.put("www.a.com", true);
+       authorities.put("www.a.com", true); 
        authorities.put("www.A.com", true);
        authorities.put("WWW.hello.com", true);
        authorities.put("www.hello.org", true);
        authorities.put("www.world.io", true);
-       authorities.put("www.123.us", true);
+       authorities.put("www.123.us", true); 
 
        StringBuilder longOne = new StringBuilder(1004);
        int i = 0;
@@ -195,6 +195,7 @@ public class UrlValidatorTest extends TestCase {
        longOne.append(".com");
         String longOneString = longOne.toString();
        authorities.put(longOneString, true);
+       
 
        ports.put("", true);
        ports.put(":8080", true);
@@ -208,60 +209,61 @@ public class UrlValidatorTest extends TestCase {
        paths.put("/A", true);
        paths.put("^^^not^a^path", false);
 
+       queryStrings.put("", true); 
        queryStrings.put("?", true);
-       queryStrings.put("", true);
        queryStrings.put("?me=this", true);
        queryStrings.put("?me=this&this=me", true);
 
-       fragments.put("", true);
+       fragments.put("", true); 
        fragments.put("#", true);
        fragments.put("#frag", true);
        fragments.put("#frag=ment", true);
 
-       i = 0;
+       
        System.out.println("Automated testing\n");
        for (HashMap.Entry<String, Boolean> eScheme : schemes.entrySet()) {
     	   String scheme = eScheme.getKey();
     	   Boolean schemeExpect = eScheme.getValue();
     	   
-       for (HashMap.Entry<String, Boolean> eAuth : authorities.entrySet()) {
-    	   String auth = eAuth.getKey();
-    	   Boolean authExpect = eAuth.getValue();
-    	   
-    	   for (HashMap.Entry<String, Boolean> ePort : ports.entrySet()) {
-	    	   String port = ePort.getKey();
-	    	   Boolean portExpect = ePort.getValue();
+	       for (HashMap.Entry<String, Boolean> eAuth : authorities.entrySet()) {
+	    	   String auth = eAuth.getKey();
+	    	   Boolean authExpect = eAuth.getValue();
 	    	   
-	    	   for (HashMap.Entry<String, Boolean> ePath : paths.entrySet()) {
-	    		   String path = ePath.getKey();
-	    		   Boolean pathExpect = ePath.getValue();
-	    		   
-	    		   for (HashMap.Entry<String, Boolean> eQuery : queryStrings.entrySet()) {
-	    			   String query = eQuery.getKey();
-	    			   Boolean queryExpect = eQuery.getValue();
+	    	   for (HashMap.Entry<String, Boolean> ePort : ports.entrySet()) {
+		    	   String port = ePort.getKey();
+		    	   Boolean portExpect = ePort.getValue();
+		    	   
+		    	   for (HashMap.Entry<String, Boolean> ePath : paths.entrySet()) {
+		    		   String path = ePath.getKey();
+		    		   Boolean pathExpect = ePath.getValue();
 		    		   
-		    		   for (HashMap.Entry<String, Boolean> eFrag : fragments.entrySet()) {
-		    			   String frag = eFrag.getKey();
-		    			   Boolean fragExpect = eFrag.getValue();
-		    			   
-		    			   // Actual testing!
-		    			   String testUrl = scheme + auth + port + path + query + frag;
-		    			   Boolean expected = schemeExpect && authExpect && portExpect && pathExpect && queryExpect && fragExpect;
-		    			   Boolean passed = urlVal.isValid(testUrl) == expected;
-		    			   
-		    			   String testMessage =
-		    					   (passed ? "PASS: " : "FAIL: ")
-		    					   + testUrl
-		    					   + " is "
-		    					   + (passed ? "correctly" : "incorrectly")
-		    					   + " considered "
-		    					   + (expected ? "valid" : "invalid");
-		    			   System.out.println(testMessage);
+		    		   for (HashMap.Entry<String, Boolean> eQuery : queryStrings.entrySet()) {
+		    			   String query = eQuery.getKey();
+		    			   Boolean queryExpect = eQuery.getValue();
+			    		   
+			    		   for (HashMap.Entry<String, Boolean> eFrag : fragments.entrySet()) {
+			    			   String frag = eFrag.getKey();
+			    			   Boolean fragExpect = eFrag.getValue();
+			    			   
+			    			   // Actual testing!
+			    			   String testUrl = scheme + auth + port + path + query + frag;
+			    			   Boolean expected = schemeExpect && authExpect && portExpect && pathExpect && queryExpect && fragExpect;
+			    			   Boolean valid = urlVal.isValid(testUrl);
+			    			   Boolean passed = valid == expected;
+			    			   
+			    			   String testMessage =
+			    					   (passed ? "PASS: " : "FAIL: ")
+			    					   + testUrl
+			    					   + " is "
+			    					   + (passed ? "correctly" : "incorrectly")
+			    					   + " considered "
+			    					   + (valid ? "valid" : "invalid");
+			    			   System.out.println(testMessage);
+			    		   }
 		    		   }
-	    		   }
+		    	   }
 	    	   }
-    	   }
-       }
+	       }
        }
    }
    
@@ -271,9 +273,9 @@ public class UrlValidatorTest extends TestCase {
       //fct.setUp();
       //fct.testIsValid();
       //fct.testIsValidScheme();
-	  fct.testManualTest();
-	  fct.testYourFirstPartition();
-	  fct.testYourSecondPartition();
+	  //fct.testManualTest();
+	  //fct.testYourFirstPartition();
+	  //fct.testYourSecondPartition();
 	  fct.testIsValid();
    }
    
