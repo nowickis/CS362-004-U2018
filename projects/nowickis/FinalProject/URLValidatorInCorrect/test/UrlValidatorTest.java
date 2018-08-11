@@ -171,7 +171,6 @@ public class UrlValidatorTest extends TestCase {
    {
 	   //You can use this function for programming based testing
        UrlValidator urlVal = new UrlValidator(null, null, UrlValidator.ALLOW_ALL_SCHEMES);
-       HashMap<String, Boolean> schemes = new HashMap<>();
        HashMap<String, Boolean> authorities = new HashMap<>();
        HashMap<String, Boolean> ports = new HashMap<>();
        HashMap<String, Boolean> paths = new HashMap<>();
@@ -179,7 +178,7 @@ public class UrlValidatorTest extends TestCase {
        HashMap<String, Boolean> fragments = new HashMap<>();
 
        //from tests above, we know that only http is going to work, so no use testing other schemes
-       schemes.put("http://", true);
+       String httpScheme = "http://";
 
        authorities.put("www.a.com", true);
        authorities.put("www.A.com", true);
@@ -244,7 +243,7 @@ public class UrlValidatorTest extends TestCase {
 		    			   Boolean fragExpect = eFrag.getValue();
 		    			   
 		    			   // Actual testing!
-		    			   String testUrl = auth + port + path + query + frag;
+		    			   String testUrl = httpScheme + auth + port + path + query + frag;
 		    			   Boolean expected = authExpect && portExpect && pathExpect && queryExpect && fragExpect;
 		    			   Boolean passed = urlVal.isValid(testUrl) == expected;
 		    			   
