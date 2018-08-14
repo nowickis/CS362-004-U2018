@@ -200,14 +200,14 @@ public class UrlValidatorTest extends TestCase {
        ports.put("", true);
        ports.put(":8080", true);
        ports.put(":1234", true);
-       ports.put("|0039", false);
        ports.put(":im_not_a_port", false);
 
        paths.put("/a/b/index.html", true);
        paths.put("", true);
        paths.put("/", true);
        paths.put("/A", true);
-       paths.put("^^^not^a^path", false);
+       paths.put("/w", true);
+       paths.put("/a/", true);
 
        queryStrings.put("", true); 
        queryStrings.put("?", true);
@@ -244,6 +244,12 @@ public class UrlValidatorTest extends TestCase {
 			    		   for (HashMap.Entry<String, Boolean> eFrag : fragments.entrySet()) {
 			    			   String frag = eFrag.getKey();
 			    			   Boolean fragExpect = eFrag.getValue();
+			    			   
+			    			   if ((schemeExpect && authExpect && portExpect && queryExpect && fragExpect) == false
+			    					   ) {
+			    				   // Filter out all expected invalid urls except paths
+			    				   //continue;
+			    			   }
 			    			   
 			    			   // Actual testing!
 			    			   String testUrl = scheme + auth + port + path + query + frag;
