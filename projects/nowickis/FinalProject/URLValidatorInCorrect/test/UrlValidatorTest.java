@@ -177,7 +177,7 @@ public class UrlValidatorTest extends TestCase {
        HashMap<String, Boolean> fragments = new HashMap<>();
 
        //from tests above, we know that only http is going to work, so no use testing other schemes
-       schemes.put("http://", true);
+       schemes.put("http", true);
 
        authorities.put("www.a.com", true); 
        authorities.put("www.A.com", true);
@@ -245,11 +245,6 @@ public class UrlValidatorTest extends TestCase {
 			    			   String frag = eFrag.getKey();
 			    			   Boolean fragExpect = eFrag.getValue();
 			    			   
-			    			   if ((schemeExpect && authExpect && portExpect && queryExpect && fragExpect) == false
-			    					   ) {
-			    				   // Filter out all expected invalid urls except paths
-			    				   //continue;
-			    			   }
 			    			   
 			    			   // Actual testing!
 			    			   String testUrl = scheme + auth + port + path + query + frag;
@@ -266,6 +261,7 @@ public class UrlValidatorTest extends TestCase {
 			    					   + (valid ? "valid" : "invalid");
 			    			   System.out.println(testMessage);
 			    		   }
+
 		    		   }
 		    	   }
 	    	   }
